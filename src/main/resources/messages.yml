@@ -1,0 +1,125 @@
+inventory:
+  title: "Particulas"
+  reset_button:
+    name: "Reiniciar Partículas"
+    lore:
+      - "Haz clic para quitar el efecto de partículas"
+
+particles:
+  WATER_SPLASH:
+    name: "§bSalpicadura de Agua"
+    lore:
+      - "§7Efecto de salpicadura de agua"
+    icon: "WATER_BUCKET"
+  DRIP_WATER:
+    name: "§bGoteo de Agua"
+    lore:
+      - "§7Efecto de goteo de agua"
+    icon: "WATER_BUCKET"
+  DRIP_LAVA:
+    name: "§cGoteo de Lava"
+    lore:
+      - "§7Efecto de goteo de lava"
+    icon: "LAVA_BUCKET"
+  CRIT:
+    name: "§eCrítico"
+    lore:
+      - "§7Efecto de golpe crítico"
+    icon: "DIAMOND_SWORD"
+  CRIT_MAGIC:
+    name: "§dCrítico Mágico"
+    lore:
+      - "§7Efecto de golpe crítico mágico"
+    icon: "DIAMOND_SWORD"
+  SPELL:
+    name: "§5Hechizo"
+    lore:
+      - "§7Efecto de hechizo"
+    icon: "POTION"
+  SPELL_INSTANT:
+    name: "§5Hechizo Instantáneo"
+    lore:
+      - "§7Efecto de hechizo instantáneo"
+    icon: "POTION"
+  SPELL_MOB:
+    name: "§5Hechizo de Mob"
+    lore:
+      - "§7Efecto de hechizo de mob"
+    icon: "POTION"
+  SPELL_WITCH:
+    name: "§5Hechizo de Bruja"
+    lore:
+      - "§7Efecto de hechizo de bruja"
+    icon: "POTION"
+  VILLAGER_ANGRY:
+    name: "§cAldeano Enojado"
+    lore:
+      - "§7Efecto de aldeano enojado"
+    icon: "ENDER_CHEST"
+  VILLAGER_HAPPY:
+    name: "§aAldeano Feliz"
+    lore:
+      - "§7Efecto de aldeano feliz"
+    icon: "ENDER_CHEST"
+  TOWN_AURA:
+    name: "§6Aura de Pueblo"
+    lore:
+      - "§7Efecto de aura de pueblo"
+    icon: "NOTE_BLOCK"
+  NOTE:
+    name: "§aNota"
+    lore:
+      - "§7Efecto de nota musical"
+    icon: "NOTE_BLOCK"
+  PORTAL:
+    name: "§dPortal"
+    lore:
+      - "§7Efecto de portal"
+    icon: "ENDER_PEARL"
+  ENCHANTMENT_TABLE:
+    name: "§5Mesa de Encantamientos"
+    lore:
+      - "§7Efecto de mesa de encantamientos"
+    icon: "ENCHANTING_TABLE"
+  FLAME:
+    name: "§cLlama"
+    lore:
+      - "§7Efecto de llama"
+    icon: "FIRE_CHARGE"
+  REDSTONE:
+    name: "§cPiedra Roja"
+    lore:
+      - "§7Efecto de piedra roja"
+    icon: "REDSTONE"
+  HEART:
+    name: "§cCorazón"
+    lore:
+      - "§7Efecto de corazón"
+    icon: "POPPY"
+  FIREWORKS_SPARK:
+    name: "§eChispa de Fuegos Artificiales"
+    lore:
+      - "§7Efecto de chispa de fuegos artificiales"
+    icon: "FIREWORK_ROCKET"
+  SMOKE_NORMAL:
+    name: "§7Humo"
+    lore:
+      - "§7Efecto de humo"
+    icon: "FIREWORK_STAR"
+  SLIME:
+    name: "§aSlime"
+    lore:
+      - "§7Efecto de slime"
+    icon: "SLIME_BALL"
+  RAINBOW_SPELL:
+    name: "§dHechizo Arcoiris"
+    lore:
+      - "§7Efecto de hechizo arcoiris"
+    icon: "POTION"
+
+messages:
+  menu_opened: "§aMenú de partículas abierto."
+  player_only_command: "§cEste comando solo puede ser usado por jugadores."
+  particle_selected: "§aHas seleccionado la partícula: §b{particle}"
+  particles_reset: "§cHas reiniciado las partículas."
+  no_permission: "§cNo puedes usar esta particula."

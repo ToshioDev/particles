@@ -1,0 +1,9 @@
+name: Particles
+version: 1.0-SNAPSHOT
+main: mc.nekocraft.Main
+api-version: 1.21
+
+commands:
+  particles:
+    description: Opens the particle selection menu
+    aliases: [particulas]
